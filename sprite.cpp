@@ -15,6 +15,8 @@ void Sprite::setSourceRectW(int value) {
 void Sprite::setSourceRectH(int value) {
 	this->_sourceRect.h = value;
 }
+
+
 Sprite::Sprite(Graphics& graphics, const std::string& filePath, int sourceX, int sourceY, int width, int height, float posX, float posY) :
 	_x(posX),
 	_y(posY)
@@ -30,6 +32,14 @@ Sprite::Sprite(Graphics& graphics, const std::string& filePath, int sourceX, int
 	}
 	this->_boundingBox = Rectangle(this->_x, this->_y, width * globals::SPRITE_SCALE, height * globals::SPRITE_SCALE);
 }
+
+Sprite::Sprite()
+{
+}
+
+Sprite::~Sprite() {}
+
+
 void Sprite::update()
 {
 	this->_boundingBox = Rectangle(this->_x, this->_y, this->_sourceRect.w * globals::SPRITE_SCALE, this->_sourceRect.h * globals::SPRITE_SCALE);

@@ -21,10 +21,4 @@ private:
 	std::map<SDL_Scancode, bool> _releasedKeys;
 };
 
-Input::Input()
-{
-}
 
-Input::~Input()
-{
-}

@@ -1,0 +1,19 @@
+﻿  animatedsprite.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedsprite.cpp(75,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedsprite.cpp(76,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  sprite.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(50,61): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(50,61): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(51,24): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(51,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_main referenced in function main_getcmdline
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\x64\Debug\MyGame01.exe : fatal error LNK1120: 1 unresolved externals

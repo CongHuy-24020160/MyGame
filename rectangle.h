@@ -11,7 +11,6 @@ public:
 		_width(_width),
 		_height(_height)
 	{}
-	~Rectangle();
 
 	const int getCenterX() const { return this->_x + this->_width / 2; }
 	const int getCenterY() const { return this->_y + this->_height / 2; }
@@ -48,10 +47,3 @@ private:
 	int _x, _y, _width, _height;
 };
 
-Rectangle::Rectangle()
-{
-}
-
-Rectangle::~Rectangle()
-{
-}

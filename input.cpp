@@ -29,3 +29,10 @@ bool Input::wasKeyReleased(SDL_Scancode key) {
 bool Input::isKeyHeld(SDL_Scancode key) {
 	return this->_heldKeys[key];
 }
+Input::Input()
+{
+}
+
+Input::~Input()
+{
+}
