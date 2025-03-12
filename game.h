@@ -1,4 +1,5 @@
 #pragma once
+#include"graphics.h"
 class Game
 {
 public:
@@ -7,5 +8,8 @@ public:
 
 private:
 	void gameLoop();
-	void draw
+	void draw(Graphics& graphics);
+	void update(float eslapsedTime);
+
+
 };

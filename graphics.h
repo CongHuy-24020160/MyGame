@@ -1,5 +1,6 @@
 #pragma once
 #include<SDL.h>
+#include<SDL_image.h>
 #include<string>
 #include<map>
 class Graphics
@@ -7,7 +8,7 @@ class Graphics
 public:
 	Graphics();
 	~Graphics();
-	SDL_Surface* loadImage(const std::string filePath);
+	SDL_Surface* loadImage(const std::string &filePath);
 
 	void blitSurface(SDL_Texture* source, SDL_Rect* sourceRectangle, SDL_Rect* destinationRectangle);
 
