@@ -3,56 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedsprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedtile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedtile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedsprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:tile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:sprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedsprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:sprite.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedsprite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +94,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-12T19:26:36.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "animatedtile.cpp",
+              "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.cpp",
+              "RelativeDocumentMoniker": "animatedtile.cpp",
+              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.cpp",
+              "RelativeToolTip": "animatedtile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T19:08:08.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "animatedtile.h",
+              "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.h",
+              "RelativeDocumentMoniker": "animatedtile.h",
+              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.h",
+              "RelativeToolTip": "animatedtile.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T19:03:14.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tile.cpp",
+              "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.cpp",
+              "RelativeDocumentMoniker": "tile.cpp",
+              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.cpp",
+              "RelativeToolTip": "tile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T19:00:25.114Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "tile.h",
+              "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.h",
+              "RelativeDocumentMoniker": "tile.h",
+              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.h",
+              "RelativeToolTip": "tile.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T18:56:54.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "animatedsprite.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.cpp",
               "RelativeDocumentMoniker": "animatedsprite.cpp",
@@ -82,25 +164,23 @@
               "RelativeToolTip": "animatedsprite.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-12T17:02:12.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T17:02:12.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "animatedsprite.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.h",
               "RelativeDocumentMoniker": "animatedsprite.h",
               "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.h",
               "RelativeToolTip": "animatedsprite.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-12T16:48:36.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T16:48:36.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "input.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.cpp",
               "RelativeDocumentMoniker": "input.cpp",
@@ -108,12 +188,11 @@
               "RelativeToolTip": "input.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-12T16:28:58.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T16:28:58.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "input.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.h",
               "RelativeDocumentMoniker": "input.h",
@@ -121,51 +200,47 @@
               "RelativeToolTip": "input.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-12T16:24:57.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T16:24:57.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "sprite.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.cpp",
               "RelativeDocumentMoniker": "sprite.cpp",
               "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.cpp",
               "RelativeToolTip": "sprite.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T11:25:51.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:25:51.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "sprite.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.h",
               "RelativeDocumentMoniker": "sprite.h",
               "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.h",
               "RelativeToolTip": "sprite.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-11T10:52:57.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:52:57.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "rectangle.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\rectangle.h",
               "RelativeDocumentMoniker": "rectangle.h",
-              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\rectangle.h*",
-              "RelativeToolTip": "rectangle.h*",
-              "ViewState": "AgIAAB8AAAAAAAAAAIAwwDEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\rectangle.h",
+              "RelativeToolTip": "rectangle.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwBwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-11T10:59:27.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:59:27.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "graphics.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.cpp",
               "RelativeDocumentMoniker": "graphics.cpp",
@@ -173,12 +248,11 @@
               "RelativeToolTip": "graphics.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T08:34:57.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:34:57.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "graphics.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.h",
               "RelativeDocumentMoniker": "graphics.h",
@@ -186,38 +260,35 @@
               "RelativeToolTip": "graphics.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-11T08:29:52.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:29:52.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "globals.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\globals.h",
               "RelativeDocumentMoniker": "globals.h",
               "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\globals.h",
               "RelativeToolTip": "globals.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-11T08:38:18.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:38:18.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.cpp",
               "RelativeDocumentMoniker": "game.cpp",
               "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.cpp",
               "RelativeToolTip": "game.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T08:27:41.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:27:41.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "game.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.h",
               "RelativeDocumentMoniker": "game.h",
@@ -229,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -237,8 +308,7 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T06:46:08.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T06:46:08.782Z"
             }
           ]
         }
