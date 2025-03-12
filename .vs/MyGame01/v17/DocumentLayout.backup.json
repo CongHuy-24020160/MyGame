@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{704BDE1C-1A82-42A4-B73E-3BFAF2B9B52C}|MyGame01.vcxproj|solutionrelative:animatedtile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -95,32 +91,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-12T19:26:36.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "animatedtile.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.cpp",
               "RelativeDocumentMoniker": "animatedtile.cpp",
               "ToolTip": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.cpp",
               "RelativeToolTip": "animatedtile.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-12T19:08:08.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "animatedtile.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedtile.h",
               "RelativeDocumentMoniker": "animatedtile.h",
@@ -132,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "tile.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.cpp",
               "RelativeDocumentMoniker": "tile.cpp",
@@ -144,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "tile.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\tile.h",
               "RelativeDocumentMoniker": "tile.h",
@@ -156,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "animatedsprite.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.cpp",
               "RelativeDocumentMoniker": "animatedsprite.cpp",
@@ -168,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "animatedsprite.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\animatedsprite.h",
               "RelativeDocumentMoniker": "animatedsprite.h",
@@ -180,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "input.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.cpp",
               "RelativeDocumentMoniker": "input.cpp",
@@ -192,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "input.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\input.h",
               "RelativeDocumentMoniker": "input.h",
@@ -204,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "sprite.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.cpp",
               "RelativeDocumentMoniker": "sprite.cpp",
@@ -216,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "sprite.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\sprite.h",
               "RelativeDocumentMoniker": "sprite.h",
@@ -228,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "rectangle.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\rectangle.h",
               "RelativeDocumentMoniker": "rectangle.h",
@@ -240,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "graphics.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.cpp",
               "RelativeDocumentMoniker": "graphics.cpp",
@@ -252,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "graphics.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\graphics.h",
               "RelativeDocumentMoniker": "graphics.h",
@@ -264,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "globals.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\globals.h",
               "RelativeDocumentMoniker": "globals.h",
@@ -276,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "game.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.cpp",
               "RelativeDocumentMoniker": "game.cpp",
@@ -288,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "game.h",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\game.h",
               "RelativeDocumentMoniker": "game.h",
@@ -300,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Hi Windows 11 Home\\source\\repos\\MyGame01\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
