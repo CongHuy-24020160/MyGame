@@ -1,5 +1,5 @@
 #include "animatedsprite.h"
-
+#include<iostream>
 AnimatedSprite::AnimatedSprite()
 {
 
@@ -19,7 +19,7 @@ void AnimatedSprite::addAnimation(int frames, int x, int y, std::string name, in
 {
 	std::vector<SDL_Rect> rectangle;
 	for (int i = 0;i < frames;i++) {
-		SDL_Rect newRect = { (i + x) * width,y,width,height };
+		SDL_Rect newRect = { (i + x) * width,y*height,width,height };
 		rectangle.push_back(newRect);
 	}
 	this->_animations.insert(std::pair<std::string, std::vector<SDL_Rect>>(name, rectangle));
@@ -57,6 +57,7 @@ void AnimatedSprite::update(int elaspedTime) {
 		this->_timeElasped -= this->_timeToUpdate;
 		if (this->_frameIndex < this->_animations[this->_currentAnimation].size() - 1) {
 			this->_frameIndex++;
+			std::cout << _frameIndex;
 		}
 		else {
 			if (this->_currentAnimationOnce == true) {
@@ -76,6 +77,30 @@ void AnimatedSprite::draw(Graphics& graphics, int x, int y) {
 		destinationRectangle.h = this->_sourceRect.h * globals::SPRITE_SCALE;
 
 		SDL_Rect sourceRect = this->_animations[this->_currentAnimation][this->_frameIndex];
-		graphics.blitSurface(this->_spriteSheet, &sourceRect, &destinationRectangle);
+
+		if (this->_currentAnimation == "IdleLeft" || this->_currentAnimation == "RunLeft" || this->_currentAnimation == "AttackLeft_1" || this->_currentAnimation == "AttackLeft_2") {
+			graphics.blitSurfaceEX(this->_spriteSheet, &sourceRect, &destinationRectangle);
+			std::cout << _currentAnimation;
+		}
+		else {
+			graphics.blitSurface(this->_spriteSheet, &sourceRect, &destinationRectangle);
+		}
+	}
+}
+
+void AnimatedSprite::printAnimationDetails(const std::string& animationName) {
+	if (this->_animations.find(animationName) == this->_animations.end()) {
+		std::cerr << "Animation '" << animationName << "' NOT found!" << std::endl;
+		return;
+	}
+
+	std::cout << "Animation: " << animationName << std::endl;
+	for (size_t i = 0; i < this->_animations[animationName].size(); ++i) {
+		SDL_Rect frame = this->_animations[animationName][i];
+		std::cout << "  Frame " << i << ": ("
+			<< "x=" << frame.x
+			<< ", y=" << frame.y
+			<< ", w=" << frame.w
+			<< ", h=" << frame.h << ")" << std::endl;
 	}
 }

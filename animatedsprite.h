@@ -19,6 +19,8 @@ public:
 
 	void draw(Graphics& graphics, int x, int y);
 
+	void printAnimationDetails(const std::string& animationName);
+
 protected:
 	double _timeToUpdate;
 	bool _currentAnimationOnce;

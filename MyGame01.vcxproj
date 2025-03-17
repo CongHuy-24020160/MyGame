@@ -136,6 +136,7 @@
     <ClCompile Include="graphics.cpp" />
     <ClCompile Include="input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="sprite.cpp" />
     <ClCompile Include="tile.cpp" />
   </ItemGroup>
@@ -145,10 +146,18 @@
     <ClInclude Include="game.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="graphics.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="input.h" />
     <ClInclude Include="rectangle.h" />
+    <ClInclude Include="slope.h" />
     <ClInclude Include="sprite.h" />
     <ClInclude Include="tile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="contents\sprites\Warrior_Blue - Left.png" />
+    <Image Include="contents\sprites\Warrior_Blue.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

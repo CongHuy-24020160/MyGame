@@ -12,6 +12,8 @@ public:
 
 	void blitSurface(SDL_Texture* source, SDL_Rect* sourceRectangle, SDL_Rect* destinationRectangle);
 
+	void blitSurfaceEX(SDL_Texture* source, SDL_Rect* sourceRectangle, SDL_Rect* destinationRectangle);
+
 	void flip();
 
 	void clear();

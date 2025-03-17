@@ -3,7 +3,7 @@ namespace globals {
 	const int SCREEN_WIDTH = 640;
 	const int SCREEN_HEIGHT = 480;
 
-	const float SPRITE_SCALE = 2.0f;
+	const float SPRITE_SCALE = 20.0f;
 }
 
 namespace sides {
@@ -39,5 +39,12 @@ struct Vector2
 		return Vector2(0, 0);
 	}
 
+};
+
+enum Direction {
+	LEFT,
+	RIGHT,
+	UP,
+	DOWN
 };
 
