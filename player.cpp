@@ -16,8 +16,6 @@ Player::Player(Graphics& graphics, Vector2 spawnPoint) :
 	_dy(0),
 	_facing(RIGHT),
 	_grounded(false),
-	_lookingUp(false),
-	_lookingDown(false),
 	_maxHealth(3),
 	_currentHealth(3)
 {
@@ -38,7 +36,7 @@ void Player::moveLeft()
 		return;
 	}
 	this->_dx = -player_constants::WALK_SPEED;
-	this->playAnimation("RunLeft");
+	this->playAnimation("RunLeft",true);
 	this->_facing = LEFT;
 }
 void Player::moveRight()
@@ -47,39 +45,41 @@ void Player::moveRight()
 		return;
 	}
 	this->_dx = player_constants::WALK_SPEED;
-	this->playAnimation("RunRight");
+	this->playAnimation("RunRight",true);
 	this->_facing = RIGHT;
 }
 
 void Player::attackRight_1()
 {
-	this->playAnimation("AttackRight_1");
+	this->playAnimation("AttackRight_1",true);
 	this->_facing = RIGHT;
 }
 void Player::attackRight_2() {
-	this->playAnimation("AttackRight_2");
+	this->playAnimation("AttackRight_2",true);
 	this->_facing = RIGHT;
 }
 void Player::attackLeft_1()
 {
-	this->playAnimation("AttackLeft_1");
+	this->playAnimation("AttackLeft_1",true);
 	this->_facing = LEFT;
 }
 void Player::attackLeft_2()
 {
-	this->playAnimation("AttackLeft_2");
+	this->playAnimation("AttackLeft_2",true);
 	this->_facing = LEFT;
 }
 
 
 void Player::stopMoving()
 {
+
 	this->_dx = 0.0f;
 	this->playAnimation(this->_facing == RIGHT ? "IdleRight" : "IdleLeft");
 }
 
 void Player::animationDone(std::string currentAnimation)
 {
+	this->stopMoving();
 }
 
 void Player::setupAnimations()

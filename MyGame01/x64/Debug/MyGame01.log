@@ -2,9 +2,9 @@
 C:\Users\Hi Windows 11 Home\source\repos\MyGame01\slope.h(16,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'game.cpp')
   
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(74,24): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(74,24): warning C4244:         with
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(74,24): warning C4244:         [
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(74,24): warning C4244:             _Ty=int
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(74,24): warning C4244:         ]
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:         with
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:         [
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:             _Ty=int
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:         ]
   MyGame01.vcxproj -> C:\Users\Hi Windows 11 Home\source\repos\MyGame01\x64\Debug\MyGame01.exe

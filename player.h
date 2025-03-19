@@ -42,6 +42,7 @@ public:
 		return this->_currentHealth;
 	}
 	void gainHealth(int amount);
+
 private:
 	float _dx, _dy;
 
@@ -49,9 +50,10 @@ private:
 
 	bool _grounded;
 
-	bool _lookingUp;
-	bool _lookingDown;
 
 	int _maxHealth;
 	int _currentHealth;
+
+	std::string _currentAction;
+
 };

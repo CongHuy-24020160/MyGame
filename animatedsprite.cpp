@@ -11,7 +11,8 @@ AnimatedSprite::AnimatedSprite(Graphics& graphics, const std::string& filePath, 
 	_timeToUpdate(timeToUpdate),
 	_visible(true),
 	_currentAnimationOnce(false),
-	_currentAnimation("")
+	_currentAnimation(""),
+	_isAnimationDone(false)
 {
 };
 
@@ -44,10 +45,21 @@ void AnimatedSprite::stopAnimation() {
 	this->animationDone(this->_currentAnimation);
 }
 
+void AnimatedSprite::resetFrame()
+{
+	this->_frameIndex = 0;
+}
+
 void AnimatedSprite::setVisible(bool visible)
 {
 	this->_visible = visible;
 }
+
+bool AnimatedSprite::isAnimationDone() const
+{
+	return _isAnimationDone;
+}
+
 
 void AnimatedSprite::update(int elaspedTime) {
 	Sprite::update();
@@ -56,14 +68,17 @@ void AnimatedSprite::update(int elaspedTime) {
 	if (this->_timeElasped > this->_timeToUpdate) {
 		this->_timeElasped -= this->_timeToUpdate;
 		if (this->_frameIndex < this->_animations[this->_currentAnimation].size() - 1) {
+			this->_isAnimationDone = false;
 			this->_frameIndex++;
-			std::cout << _frameIndex;
 		}
 		else {
 			if (this->_currentAnimationOnce == true) {
-				this->setVisible(false);
+				this->_isAnimationDone = true;
+				this->stopAnimation();
 			}
-			this->stopAnimation();
+			else {
+				this->resetFrame();
+			}
 		}
 	}
 }
@@ -80,27 +95,9 @@ void AnimatedSprite::draw(Graphics& graphics, int x, int y) {
 
 		if (this->_currentAnimation == "IdleLeft" || this->_currentAnimation == "RunLeft" || this->_currentAnimation == "AttackLeft_1" || this->_currentAnimation == "AttackLeft_2") {
 			graphics.blitSurfaceEX(this->_spriteSheet, &sourceRect, &destinationRectangle);
-			std::cout << _currentAnimation;
 		}
 		else {
 			graphics.blitSurface(this->_spriteSheet, &sourceRect, &destinationRectangle);
 		}
-	}
-}
-
-void AnimatedSprite::printAnimationDetails(const std::string& animationName) {
-	if (this->_animations.find(animationName) == this->_animations.end()) {
-		std::cerr << "Animation '" << animationName << "' NOT found!" << std::endl;
-		return;
-	}
-
-	std::cout << "Animation: " << animationName << std::endl;
-	for (size_t i = 0; i < this->_animations[animationName].size(); ++i) {
-		SDL_Rect frame = this->_animations[animationName][i];
-		std::cout << "  Frame " << i << ": ("
-			<< "x=" << frame.x
-			<< ", y=" << frame.y
-			<< ", w=" << frame.w
-			<< ", h=" << frame.h << ")" << std::endl;
 	}
 }

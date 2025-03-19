@@ -49,19 +49,26 @@ void Game::gameLoop()
 			this->_player.moveRight();
 		}
 		else if (input.wasKeyPressed(SDL_SCANCODE_A) == true) {
+			this->_player.stopMoving();
 			this->_player.attackLeft_1();
 		}
 		else if (input.wasKeyPressed(SDL_SCANCODE_S) == true) {
+			this->_player.stopMoving();
 			this->_player.attackLeft_2();
+
 		}
 		else if (input.wasKeyPressed(SDL_SCANCODE_D) == true) {
+			this->_player.stopMoving();
 			this->_player.attackRight_1();
+
 		}
 		else if (input.wasKeyPressed(SDL_SCANCODE_F) == true) {
+			this->_player.stopMoving();
 			this->_player.attackRight_2();
+
 		}
 
-		if (!input.isKeyHeld(SDL_SCANCODE_LEFT) && !input.isKeyHeld(SDL_SCANCODE_RIGHT)) {
+		if (!input.isKeyHeld(SDL_SCANCODE_LEFT) && !input.isKeyHeld(SDL_SCANCODE_RIGHT) && this->_player.isAnimationDone()){
 			this->_player.stopMoving();
 		}
 

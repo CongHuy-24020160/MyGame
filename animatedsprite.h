@@ -19,7 +19,7 @@ public:
 
 	void draw(Graphics& graphics, int x, int y);
 
-	void printAnimationDetails(const std::string& animationName);
+	bool isAnimationDone() const;
 
 protected:
 	double _timeToUpdate;
@@ -32,11 +32,14 @@ protected:
 
 	void stopAnimation();
 
+	void resetFrame();
+
 	void setVisible(bool visible);
 
 	virtual void animationDone(std::string currentAnimation) = 0;
 
 	virtual void setupAnimations() = 0;
+
 
 private:
 	std::map<std::string, std::vector<SDL_Rect>> _animations;
@@ -45,4 +48,6 @@ private:
 	int _frameIndex;
 	double _timeElasped;
 	bool _visible;
+
+	bool _isAnimationDone;
 };
