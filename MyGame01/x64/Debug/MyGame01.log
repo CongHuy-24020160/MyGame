@@ -1,10 +1,89 @@
-﻿  game.cpp
+﻿  animatedsprite.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedsprite.cpp(91,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedsprite.cpp(92,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  animatedtile.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedtile.cpp(34,18): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedtile.cpp(34,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedtile.cpp(34,57): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\animatedtile.cpp(34,57): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  game.cpp
 C:\Users\Hi Windows 11 Home\source\repos\MyGame01\slope.h(16,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'game.cpp')
   
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:         with
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:         [
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:             _Ty=int
-C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(79,24): warning C4244:         ]
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(85,24): warning C4244: 'argument': conversion from 'const _Ty' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(85,24): warning C4244:         with
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(85,24): warning C4244:         [
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(85,24): warning C4244:             _Ty=int
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(85,24): warning C4244:         ]
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\game.cpp(109,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  graphics.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\graphics.cpp(18,16): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\graphics.cpp(21,16): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\graphics.cpp(26,17): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\graphics.cpp(26,17): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
+  level.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\slope.h(16,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'level.cpp')
+  
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(14,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'level.cpp')
+  
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(21,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'level.cpp')
+  
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(24,71): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(24,71): warning C4267:         with
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(24,71): warning C4267:         [
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(24,71): warning C4267:             _Ty=int
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(24,71): warning C4267:         ]
+  (compiling source file 'level.cpp')
+  
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\utils.h(26,19): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'level.cpp')
+  
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\level.cpp(77,16): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\level.cpp(77,16): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\level.cpp(77,16): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\level.cpp(103,10): warning C4101: 'path': unreferenced local variable
+  main.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\slope.h(16,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  player.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\slope.h(16,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'player.cpp')
+  
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(14,102): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(14,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(30,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(30,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(111,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(119,71): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(124,40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(127,71): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(141,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(147,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(151,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\player.cpp(177,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  sprite.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(33,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(45,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(50,61): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(50,61): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(51,24): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\sprite.cpp(51,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  tile.cpp
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\tile.cpp(13,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\tile.cpp(13,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\tile.cpp(23,18): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\tile.cpp(23,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\tile.cpp(23,57): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Hi Windows 11 Home\source\repos\MyGame01\tile.cpp(23,57): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   MyGame01.vcxproj -> C:\Users\Hi Windows 11 Home\source\repos\MyGame01\x64\Debug\MyGame01.exe

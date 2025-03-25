@@ -1,5 +1,6 @@
 #include "game.h"
 #include "input.h"
+#include <iostream>
 Game::Game()
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
@@ -17,10 +18,15 @@ namespace {
 }
 void Game::gameLoop()
 {
+	// Declare things needed
 	Graphics graphics;
 	Input input;
 	SDL_Event event;
+
+	// Player and level
 	this->_player = Player(graphics, Vector2(100, 100));
+	this->_level = Level("Map_1", graphics);
+
 	int LAST_UPDATE_TIME = SDL_GetTicks();
 	//Start the game loop
 	while (true) {
@@ -90,13 +96,19 @@ void Game::gameLoop()
 void Game::draw(Graphics& graphics)
 {
 	graphics.clear();
+
+	this->_level.draw(graphics);
 	this->_player.draw(graphics);
+
 	graphics.flip();
+
 }
 
 void Game::update(float elapsedTime)
 {
-	this->_player.update(elapsedTime);
+    this->_level.update(elapsedTime, this->_player);
+    this->_player.update(elapsedTime);
+
 }
 
 
