@@ -3,9 +3,9 @@ namespace globals {
 	const int SCREEN_WIDTH = 1600;
 	const int SCREEN_HEIGHT = 896;
 
-	const float SPRITE_SCALE = 5.0f;
-
-	const float MAP_SCALE = 1.0f;
+	const float SPRITE_SCALE = 1.0f;
+	const float COLLISION_SCALE = SPRITE_SCALE * 1 / 4;
+	const float MAP_SCALE = 2.0f;
 }
 
 namespace sides {

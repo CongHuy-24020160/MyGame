@@ -28,11 +28,12 @@ void Game::gameLoop()
 	// Player and level
 	this->_level = Level("Map_3", graphics);
 	this->_player = Player(graphics, this->_level.getPlayerSpawnPoint());
-	this->_bat = Bat(graphics, Vector2(100, 100));
 
+	// Get time to update later
 	int LAST_UPDATE_TIME = SDL_GetTicks();
+
 	//Start the game loop
-	while (true) {
+	while (_isRunning) {
 		input.beginNewFrame();
 
 		if (SDL_PollEvent(&event)) {
@@ -90,11 +91,16 @@ void Game::gameLoop()
 		const int CURRENT_TIME_MS = SDL_GetTicks();
 		int ELAPSED_TIME_MS = CURRENT_TIME_MS - LAST_UPDATE_TIME;
 
-
+		// Update animations
 		this->update(std::min(ELAPSED_TIME_MS, MAX_FRAME_TIME));
 		LAST_UPDATE_TIME = CURRENT_TIME_MS;
 
+		// Draw animations
 		this->draw(graphics);
+
+		//Get game state
+		//this->isRunning();
+
 	}
 }
 
@@ -108,7 +114,6 @@ void Game::draw(Graphics& graphics)
 
 	this->_level.draw(graphics);
 	this->_player.draw(graphics);
-	this->_bat.draw(graphics);
 	graphics.flip();
 
 }
@@ -117,8 +122,25 @@ void Game::update(float elapsedTime)
 {
     this->_level.update(elapsedTime, this->_player);
     this->_player.update(elapsedTime);
-	this->_bat.update(elapsedTime,this->_player);
-	
+	//Check enemies
+	std::vector<Enemy*> otherEnemies;
+	if (this->_level.checkEnemyCollisions(this->_player.getBoundingBox()).size() > 0) {
+		otherEnemies = this->_level.checkEnemyCollisions(this->_player.getBoundingBox());
+		this->_player.handleEnemyCollisions(otherEnemies);
+		std::vector<Enemy*> killedEnemies = this->_player.killedEnemies(otherEnemies);
+		for (int i = 0; i < killedEnemies.size(); i++) {
+            this->_level._skulls.push_back(new Skull(this->_graphics, Vector2(killedEnemies.at(i)->getBoundingBox().getCenterX(), killedEnemies.at(i)->getBoundingBox().getCenterY())));
+			this->_level.removeEnemy(*killedEnemies.at(i));
+		}
+	}
+
+}
+
+void Game::isRunning()
+{
+	if (this->_player.getCurrentHealth() == 0) {
+		this->_isRunning = false;
+	}
 }
 
 

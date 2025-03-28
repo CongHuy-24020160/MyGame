@@ -30,7 +30,8 @@ Sprite::Sprite(Graphics& graphics, const std::string& filePath, int sourceX, int
 	if (this->_spriteSheet == NULL) {
 		std::cout << "Error: Unable to load image\n" << SDL_GetError() << '\n';
 	}
-	this->_boundingBox = Rectangle(this->_x, this->_y, width * globals::SPRITE_SCALE, height * globals::SPRITE_SCALE);
+	this->_boundingBox = Rectangle(this->_x, this->_y,  (this->_sourceRect.w *  globals::COLLISION_SCALE),  (this->_sourceRect.h *  globals::COLLISION_SCALE));
+	std::cout << this->_boundingBox.getWidth() << " " << this->_boundingBox.getHeight() << std::endl;
 }
 
 Sprite::Sprite()
@@ -42,7 +43,7 @@ Sprite::~Sprite() {}
 
 void Sprite::update()
 {
-	this->_boundingBox = Rectangle(this->_x, this->_y, this->_sourceRect.w * globals::SPRITE_SCALE, this->_sourceRect.h * globals::SPRITE_SCALE);
+	this->_boundingBox = Rectangle(this->_x, this->_y, this->_sourceRect.w * globals::COLLISION_SCALE, this->_sourceRect.h * globals::COLLISION_SCALE);
 }
 
 void Sprite::draw(Graphics& graphics, int x, int y)

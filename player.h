@@ -5,40 +5,42 @@
 #include "slope.h"
 #include "graphics.h"
 
+
 class Enemy;
 class Bat;
 class Player : public AnimatedSprite {
 public:
 	Player();
 	Player(Graphics& graphics, Vector2 spawnPoint);
+
 	void draw(Graphics& graphics);
 	void update(float elapsedTime);
 
 	void moveLeft();
-
 	void moveRight();
 
 	void attackRight_1();
-
 	void attackRight_2();
-
 	void attackLeft_1();
-
 	void attackLeft_2();
 
 	void stopMoving();
 
 	void moveUp();
-	
 	void moveDown();
 
+	bool isAttacking() const;
 
 	virtual void animationDone(std::string currentAnimation);
 	virtual void setupAnimations();
 
 	void handleTileCollisions(std::vector<Rectangle>& others);
 	void handleSlopeCollisions(std::vector<Slope>& others);
+	void handleEnemyCollisions(std::vector<Enemy*>& others);
 
+	std::vector<Enemy*> killedEnemies(std::vector<Enemy*>& others);
+
+	void onEnemyCollision(const Enemy& enemy);
 
 	const float getX() const;
 	const float getY() const;
@@ -49,6 +51,10 @@ public:
 	const inline int getCurrentHealth() const {
 		return this->_currentHealth;
 	}
+	const inline std::string getCurrentAction() const {
+		return this->_currentAction;
+	}
+
 	void gainHealth(int amount);
 
 	Direction showingfacingDirection() const;

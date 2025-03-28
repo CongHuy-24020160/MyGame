@@ -1,5 +1,5 @@
 ﻿#include "enemy.h"
-
+#include <iostream>
 Enemy::Enemy()
 {
 }
@@ -26,7 +26,7 @@ void Enemy::draw(Graphics& graphics) {
 Bat::Bat() {};
 
 Bat::Bat(Graphics& graphics, Vector2 spawnPoint) :
-	Enemy(graphics, "contents/sprites/TNT_Red.png", 32, 32, 16, 16, spawnPoint, 140),
+	Enemy(graphics, "contents/sprites/TNT_Red.png", 0, 0, 192, 192, spawnPoint, 100),
 	_startingX(spawnPoint.x),
 	_startingY(spawnPoint.y),
 	_shouldMoveUp(false)
@@ -38,7 +38,7 @@ Bat::Bat(Graphics& graphics, Vector2 spawnPoint) :
 
 void Bat::update(int elapsedTime, Player& player) {
 	float speed = 0.01f * elapsedTime; // Tốc độ di chuyển dựa trên elapsedTime
-	float threshold = 2.0f; // Khoảng cách tối thiểu để dừng di chuyển
+	float threshold = 1.0f; // Khoảng cách tối thiểu để dừng di chuyển
 
 	// Cập nhật hướng nếu Bat còn cách xa Player
 	if (std::abs(this->_x - player.getX()) > threshold) {
@@ -73,6 +73,6 @@ void Bat::setupAnimations() {
 	this->addAnimation(6, 0, 1, "RunLeft", 192, 192, Vector2(0, 0));
 }
 
-void Bat::touchPlayer(Player &player) {
-	player.gainHealth(-1);
+void Bat::touchPlayer(Player* player) {
+	player->gainHealth(-1);
 }

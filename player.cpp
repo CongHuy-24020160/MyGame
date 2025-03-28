@@ -1,4 +1,4 @@
-#include "player.h"
+﻿#include "player.h"
 #include<iostream>
 namespace player_constants {
 	const float WALK_SPEED = 0.2f;
@@ -12,7 +12,7 @@ Player::Player()
 }
 //Set up
 Player::Player(Graphics& graphics, Vector2 spawnPoint) :
-	AnimatedSprite(graphics, "contents/sprites/Warrior_Blue.png", 0, 0, 16, 16, spawnPoint.x, spawnPoint.y, 100),
+	AnimatedSprite(graphics, "contents/sprites/Warrior_Blue.png", 0, 0, 192, 192, spawnPoint.x, spawnPoint.y, 100),
 	_dx(0),
 	_dy(0),
 	_facing(RIGHT),
@@ -66,6 +66,11 @@ void Player::moveDown()
 	}
 	this->_dy = player_constants::WALK_SPEED;
 	this->playAnimation(this->_facing == LEFT ? "RunLeft" : "RunRight", true);
+}
+
+bool Player::isAttacking() const
+{
+	return _isAttacking;
 }
 
 
@@ -180,6 +185,72 @@ void Player::handleSlopeCollisions(std::vector<Slope>& others) {
 		}
 	}
 }
+
+void Player::handleEnemyCollisions(std::vector<Enemy*>& others) {
+	for (int i = 0; i < others.size(); i++) {
+		if (!isAttacking()) {
+			// Mất máu
+			others.at(i)->touchPlayer(this);
+			// Bị đẩy lùi ra xa
+			onEnemyCollision(*others.at(i));
+		}
+	}
+}
+
+std::vector<Enemy*> Player::killedEnemies(std::vector<Enemy*>& others)
+{
+	std::vector<Enemy*> killed;
+	for (int i = 0;i < others.size();i++) {
+		Rectangle currentEnemy = others.at(i)->getBoundingBox();
+		if (this->isAttacking()) {
+			if (this->getCollisionSide(currentEnemy) == sides::LEFT) {
+				if (this->_facing == LEFT) {
+					killed.push_back(others.at(i));
+				}
+			}
+			else if (this->getCollisionSide(currentEnemy) == sides::RIGHT) {
+				if (this->_facing == RIGHT) {
+					killed.push_back(others.at(i));
+				}
+			}
+		}
+	}
+	return killed;
+}
+
+void Player::onEnemyCollision(const Enemy& enemy) {
+	float knockBackForce = 0.25f;
+
+	// Tính vector hướng từ kẻ địch đến nhân vật
+	float dx = this->_x - enemy.getX();
+	float dy = this->_y - enemy.getY();
+
+	// Tính độ dài của vector (magnitude)
+	float length = sqrt(dx * dx + dy * dy);
+
+	if (length != 0) { // Tránh chia cho 0
+		// Chuẩn hóa vector hướng
+		dx /= length;
+		dy /= length;
+
+		// Nhân với knockBackForce để giữ lực đẩy cố định
+		this->_dx += dx * knockBackForce;
+		this->_dy += dy * knockBackForce;
+	}
+
+	// Cập nhật Bounding Box
+	this->_boundingBox = Rectangle(this->_x, this->_y, this->_sourceRect.w * globals::COLLISION_SCALE, this->_sourceRect.h*globals::COLLISION_SCALE);
+
+	// Chơi animation phù hợp
+	if (_facing == LEFT) {
+		playAnimation("IdleLeft", true);
+	}
+	else {
+		playAnimation("IdleRight", true);
+	}
+}
+
+
 
 
 const float Player::getX() const

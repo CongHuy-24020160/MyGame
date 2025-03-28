@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Tree.tsx",
+    "activeFile": "Map_3.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -42,8 +42,8 @@
             "scale": 0.75,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 769.3333333333333,
-                "y": 432.6666666666666
+                "x": 860,
+                "y": 447.33333333333337
             }
         },
         "Map_2.tmx#Tilemap_Flat": {
@@ -57,10 +57,10 @@
                 3
             ],
             "scale": 1,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 198,
-                "y": 436.5
+                "x": 130,
+                "y": 450.5
             }
         },
         "Map_3.tmx#Tilemap_Flat": {
@@ -110,8 +110,8 @@
     "recentFiles": [
         "Tilemap_Flat.tsx",
         "Map_2.tmx",
-        "Map_3.tmx",
         "Tree.tsx",
+        "Map_3.tmx",
         "Tilemap_Elevation.tsx",
         "Foam.tsx",
         "Map_1.tmx",

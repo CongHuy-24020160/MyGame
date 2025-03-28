@@ -22,11 +22,14 @@ Level::~Level() {}
 
 void Level::update(int elapsedTime, Player& player)
 {
-	for (int i = 0; i < this->_tileList.size(); i++) {
-		this->_tileList.at(i).update(elapsedTime);
-	}
 	for (int i = 0; i < this->_animatedTileList.size(); i++) {
 		this->_animatedTileList.at(i).update(elapsedTime);
+	}
+	for (int i = 0; i < this->_enemies.size(); i++) {
+		this->_enemies.at(i)->update(elapsedTime, player);
+	}
+	for (int i = 0; i < this->_skulls.size(); i++) {
+		this->_skulls.at(i)->update(elapsedTime);
 	}
 }
 
@@ -37,6 +40,12 @@ void Level::draw(Graphics& graphics)
 	}
 	for (int i = 0; i < this->_animatedTileList.size(); i++) {
 		this->_animatedTileList.at(i).draw(graphics);
+	}
+	for (int i = 0; i < this->_enemies.size(); i++) {
+		this->_enemies.at(i)->draw(graphics);
+	}
+	for (int i = 0; i < this->_skulls.size(); i++) {
+		this->_skulls.at(i)->draw(graphics);
 	}
 }
 
@@ -62,16 +71,32 @@ std::vector<Slope> Level::checkSlopeCollisions(const Rectangle& other)
 	return others;
 }
 
-std::vector<Bat*> Level::checkEnemyCollision(const Rectangle& other)
-{
-	std::vector<Bat*> others;
-	for (int i = 0;i < this->_enemies.size();i++) {
+std::vector<Enemy*> Level::checkEnemyCollisions(const Rectangle& other) {
+	std::vector<Enemy*> others;
+	for (int i = 0; i < this->_enemies.size(); i++) {
 		if (this->_enemies.at(i)->getBoundingBox().collidesWith(other)) {
 			others.push_back(this->_enemies.at(i));
 		}
 	}
 	return others;
 }
+
+void Level::removeEnemy(Enemy& enemy)
+{
+	for (auto it = this->_enemies.begin(); it != this->_enemies.end(); it++) {
+		if (*it == &enemy) {
+			it = this->_enemies.erase(it);
+			break;
+		}
+		else {
+			++it;
+		}
+	}
+}
+
+
+
+
 
 const Vector2 Level::getPlayerSpawnPoint() const
 {
@@ -327,15 +352,32 @@ void Level::loadMap(std::string mapName, Graphics& graphics) {
 				if (pObject != NULL) {
 					while (pObject) {
 						float x = pObject->FloatAttribute("x");
-						std::cout << x << " " << std::endl;
 						float y = pObject->FloatAttribute("y");
-						std::cout << y << " " << std::endl;
 						const char* name = pObject->Attribute("name");
 						std::stringstream ss;
 						ss << name;
 						if (ss.str() == "player") {
 							this->_spawnPoint = Vector2(std::ceil(x) ,
 								std::ceil(y) );
+						}
+
+						pObject = pObject->NextSiblingElement("object");
+					}
+				}
+			}
+			else if (ss.str() == "enemies") {
+				float x, y;
+				XMLElement* pObject = pObjectGroup->FirstChildElement("object");
+				if (pObject != NULL) {
+					while (pObject) {
+						x = pObject->FloatAttribute("x");
+						y = pObject->FloatAttribute("y");
+						const char* name = pObject->Attribute("name");
+						std::stringstream ss;
+						ss << name;
+						if (ss.str() == "bat") {
+							this->_enemies.push_back(new Bat(graphics, Vector2(std::floor(x),
+								std::floor(y))));
 						}
 
 						pObject = pObject->NextSiblingElement("object");

@@ -13,9 +13,10 @@ private:
 	void gameLoop();
 	void draw(Graphics& graphics);
 	void update(float eslapsedTime);
+	void isRunning();
 	Player _player;
 	Level _level;
 	Graphics _graphics;
-	Bat _bat;
+	bool _isRunning = true;
 
 };

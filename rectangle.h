@@ -8,8 +8,8 @@ public:
 	Rectangle(int x, int y, int width, int height) :
 		_x(x),
 		_y(y),
-		_width(_width),
-		_height(_height)
+		_width(width),
+		_height(height)
 	{}
 
 	const int getCenterX() const { return this->_x + this->_width / 2; }
