@@ -1,9 +1,12 @@
 #pragma once
+#include "enemy.h"
 #include "animatedsprite.h"
 #include "globals.h"
 #include "slope.h"
 #include "graphics.h"
 
+class Enemy;
+class Bat;
 class Player : public AnimatedSprite {
 public:
 	Player();
@@ -25,13 +28,18 @@ public:
 
 	void stopMoving();
 
+	void moveUp();
+	
+	void moveDown();
+
 
 	virtual void animationDone(std::string currentAnimation);
 	virtual void setupAnimations();
 
 	void handleTileCollisions(std::vector<Rectangle>& others);
 	void handleSlopeCollisions(std::vector<Slope>& others);
-	
+
+
 	const float getX() const;
 	const float getY() const;
 
@@ -42,6 +50,8 @@ public:
 		return this->_currentHealth;
 	}
 	void gainHealth(int amount);
+
+	Direction showingfacingDirection() const;
 
 private:
 	float _dx, _dy;
@@ -56,4 +66,5 @@ private:
 
 	std::string _currentAction;
 
+	bool _isAttacking = false;
 };

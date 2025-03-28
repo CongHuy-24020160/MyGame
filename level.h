@@ -9,6 +9,7 @@
 #include "animatedtile.h"
 #include "graphics.h"
 #include "player.h"
+#include "enemy.h"
 
 //Tileset structure
 struct Tileset {
@@ -33,6 +34,7 @@ public:
 
 	std::vector<Rectangle> checkTileCollisions(const Rectangle& other);
 	std::vector<Slope> checkSlopeCollisions(const Rectangle& other);
+	std::vector<Bat*> checkEnemyCollision(const Rectangle& other);
 
 	const Vector2 getPlayerSpawnPoint() const;
 private:
@@ -48,6 +50,7 @@ private:
 	std::vector<Tileset> _tilesets;
 	std::vector<Rectangle> _collisionRects;
 	std::vector<Slope> _slopes;
+	std::vector<Bat*> _enemies;
 
 	std::vector<AnimatedTile> _animatedTileList;
 	std::vector<AnimatedTileInfo> _animatedTileInfos;

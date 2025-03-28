@@ -3,11 +3,20 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Map_1.tmx",
+    "activeFile": "Tree.tsx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Foam.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "Ground.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
@@ -16,12 +25,64 @@
             "scale": 1.3636458333333332,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 479.96333358796124,
-                "y": 320.09777709877017
+                "x": 304.33121992208396,
+                "y": 316.4311358948896
             }
         },
         "Map_1.tmx#Ground": {
             "scaleInDock": 1
+        },
+        "Map_1.tmx#Tilemap_Elevation": {
+            "scaleInDock": 1
+        },
+        "Map_2.tmx": {
+            "expandedObjectLayers": [
+                7
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 769.3333333333333,
+                "y": 432.6666666666666
+            }
+        },
+        "Map_2.tmx#Tilemap_Flat": {
+            "scaleInDock": 1
+        },
+        "Map_2.tmx#Tree": {
+            "scaleInDock": 1
+        },
+        "Map_3.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 198,
+                "y": 436.5
+            }
+        },
+        "Map_3.tmx#Tilemap_Flat": {
+            "scaleInDock": 1
+        },
+        "Map_3.tmx#Tower_Blue": {
+            "scaleInDock": 1
+        },
+        "Map_3.tmx#Tree": {
+            "scaleInDock": 1
+        },
+        "Tilemap_Elevation.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilemap_Flat.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tree.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "untitled.tmx": {
             "scale": 1.3636458333333332,
@@ -32,17 +93,35 @@
             }
         }
     },
+    "frame.defaultDuration": 200,
     "last.imagePath": "C:/Users/Hi Windows 11 Home/source/repos/MyGame01/contents/Maps",
+    "map.height": 14,
     "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 25,
     "openFiles": [
-        "Ground.tsx",
-        "Map_1.tmx"
+        "Tilemap_Flat.tsx",
+        "Map_2.tmx",
+        "Tree.tsx",
+        "Map_3.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
-        "Ground.tsx",
+        "Tilemap_Flat.tsx",
+        "Map_2.tmx",
+        "Map_3.tmx",
+        "Tree.tsx",
+        "Tilemap_Elevation.tsx",
+        "Foam.tsx",
         "Map_1.tmx",
+        "Ground.tsx",
         "untitled.tmx"
     ],
-    "tileset.lastUsedFormat": "tsx"
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
 }

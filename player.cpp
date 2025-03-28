@@ -1,4 +1,5 @@
 #include "player.h"
+#include<iostream>
 namespace player_constants {
 	const float WALK_SPEED = 0.2f;
 	const float JUMP_SPEED = 0.7f;
@@ -9,7 +10,7 @@ namespace player_constants {
 Player::Player()
 {
 }
-
+//Set up
 Player::Player(Graphics& graphics, Vector2 spawnPoint) :
 	AnimatedSprite(graphics, "contents/sprites/Warrior_Blue.png", 0, 0, 16, 16, spawnPoint.x, spawnPoint.y, 100),
 	_dx(0),
@@ -30,6 +31,7 @@ void Player::draw(Graphics& graphics)
 	AnimatedSprite::draw(graphics, this->_x, this->_y);
 }
 
+// Movements
 void Player::moveLeft()
 {
 	if (this->_grounded == true) {
@@ -48,25 +50,22 @@ void Player::moveRight()
 	this->playAnimation("RunRight",true);
 	this->_facing = RIGHT;
 }
+void Player::moveUp()
+{
+	if (this->_grounded == true) {
+		return;
+	}
+	this->_dy = -player_constants::WALK_SPEED;
+	this->playAnimation(this->_facing == LEFT ? "RunLeft" : "RunRight", true);
+}
 
-void Player::attackRight_1()
+void Player::moveDown()
 {
-	this->playAnimation("AttackRight_1",true);
-	this->_facing = RIGHT;
-}
-void Player::attackRight_2() {
-	this->playAnimation("AttackRight_2",true);
-	this->_facing = RIGHT;
-}
-void Player::attackLeft_1()
-{
-	this->playAnimation("AttackLeft_1",true);
-	this->_facing = LEFT;
-}
-void Player::attackLeft_2()
-{
-	this->playAnimation("AttackLeft_2",true);
-	this->_facing = LEFT;
+	if (this->_grounded == true) {
+		return;
+	}
+	this->_dy = player_constants::WALK_SPEED;
+	this->playAnimation(this->_facing == LEFT ? "RunLeft" : "RunRight", true);
 }
 
 
@@ -74,12 +73,40 @@ void Player::stopMoving()
 {
 
 	this->_dx = 0.0f;
+	this->_dy = 0.0f;
 	this->playAnimation(this->_facing == RIGHT ? "IdleRight" : "IdleLeft");
 }
+
+// Attacks
+void Player::attackRight_1()
+{
+	this->playAnimation("AttackRight_1",true);
+	this->_facing = RIGHT;
+	this->_isAttacking = true;
+}
+void Player::attackRight_2() {
+	this->playAnimation("AttackRight_2",true);
+	this->_facing = RIGHT;
+	this->_isAttacking = true;
+}
+void Player::attackLeft_1()
+{
+	this->playAnimation("AttackLeft_1",true);
+	this->_facing = LEFT;
+	this->_isAttacking = true;
+}
+void Player::attackLeft_2()
+{
+	this->playAnimation("AttackLeft_2",true);
+	this->_facing = LEFT;
+	this->_isAttacking = true;
+}
+
 
 void Player::animationDone(std::string currentAnimation)
 {
 	this->stopMoving();
+	this->_isAttacking = false;
 }
 
 void Player::setupAnimations()
@@ -154,6 +181,7 @@ void Player::handleSlopeCollisions(std::vector<Slope>& others) {
 	}
 }
 
+
 const float Player::getX() const
 {
 	return this->_x;
@@ -165,6 +193,11 @@ const float Player::getY() const
 
 void Player::gainHealth(int amount) {
 	this->_currentHealth += amount;
+}
+
+Direction Player::showingfacingDirection() const
+{
+	return this->_facing;
 }
 
 void Player::update(float elapsedTime) {

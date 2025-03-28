@@ -2,6 +2,7 @@
 #include"graphics.h"
 #include"player.h"
 #include"level.h"
+#include "enemy.h"
 class Game
 {
 public:
@@ -15,5 +16,6 @@ private:
 	Player _player;
 	Level _level;
 	Graphics _graphics;
+	Bat _bat;
 
 };

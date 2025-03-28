@@ -15,7 +15,7 @@ public:
 		float posX, float posY, float timeToUpdate);
 	void playAnimation(std::string animation, bool once = false);
 
-	void update(int eslapsedTime);
+	 virtual void update(int eslapsedTime);
 
 	void draw(Graphics& graphics, int x, int y);
 

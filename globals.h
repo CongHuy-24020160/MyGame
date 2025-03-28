@@ -1,9 +1,11 @@
 #pragma once
 namespace globals {
-	const int SCREEN_WIDTH = 960;
-	const int SCREEN_HEIGHT = 640;
+	const int SCREEN_WIDTH = 1600;
+	const int SCREEN_HEIGHT = 896;
 
-	const float SPRITE_SCALE = 10.0f;
+	const float SPRITE_SCALE = 5.0f;
+
+	const float MAP_SCALE = 1.0f;
 }
 
 namespace sides {
